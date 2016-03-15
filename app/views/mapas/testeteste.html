@@ -1,0 +1,119 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Centrar uma  página com CSS</title>
+<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1">
+<script src="jquery-1.10.2.js"></script>
+<style type="text/css">
+#span1{
+width: 400px;
+background:#333;
+color: #fff;
+}
+#span2{
+width: 50px;
+background:#c9c9c9;
+float: left;
+font-size: 8px;
+height: 200px
+}
+#span3{
+width: 350px;
+background: #efefef;
+float: left;
+height: 200px;
+font-size: 8px;
+}
+</style>
+
+
+<script>
+$(document).ready(function() {
+  $(".layout").change(function(){
+      var id = this.value;
+      switch(id)
+      {
+                case "lateral":
+                $("#span1").css("width", "500px");
+                break;
+
+      }
+      
+  });
+});
+</script>
+
+<script>
+$(document).ready(function() {
+  $(".btn-color").click(function(){
+      var id = this.value;
+      switch(id)
+      {
+        case "#c10707":
+                $("#span1").css("background-color", id);
+                break;
+        case "red":
+                $("#span1").css("background-color", id);
+                break;
+        case "yellow":
+                $("#span1").css("background-color", id);
+                break;
+
+      }
+      
+  });
+});
+</script>
+
+
+
+
+</head>
+<body>
+<div>
+
+  Layout
+  <select name="layout" class="layout">
+    <option value="">Selecione</option>
+    <option value="lateral">Lateral</option>   
+     <option value="lateral">Horizontal</option>
+  </select>
+ 
+Cor do topo
+  <select name="cor" class="cor">
+    <option value="">Selecione</option>
+    <option value="#c10707">Vermelho</option>
+    <option value="red">vermelho</option>
+    <option value="yellow">amarelo</option>
+  </select>
+  
+
+  <div class="tudo">
+    <div class="cores" id="span1">. LOGO</div>
+    <div class="cores" id="span2">Menu<br>Menu<br>Menu<br></div>
+    <div class="cores" id="span3">Conteudo</div>
+  </div>
+</div>
+<script>
+$(function(){
+    var valorDaDiv = $(".produtosIntTitulo").text();    
+    $("#orcamentoAssuntoForm").val(valorDaDiv);
+});
+</script>
+<input class='formContato' type='text' name='orcamentoAssuntoForm' id='orcamentoAssuntoForm' value='Assunto'/>
+
+<div class="produtosIntTitulo margin-top-30">ghjhjghjgghjghjjghjhgjhggjhgjh</div>
+
+
+<div>
+<button value="#c10707" class="btn-color" name="cor">Feed</button>
+<button id="batata" >the</button>
+<button>Input</button>
+</div>
+<input type="text" value="click a button">
+<script>
+$( "#batata" ).click(function() {
+var text = $( this ).text();
+$( "#teste" ).val( text );
+});
+</script>

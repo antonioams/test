@@ -1,0 +1,58 @@
+{
+  "name": "home",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "e45e9f27ce40ba9837cc984076d98067",
+      "css": "search",
+      "code": 59403,
+      "src": "elusive"
+    },
+    {
+      "uid": "e1c372b8d386329b38dff5cd1ec46513",
+      "css": "star",
+      "code": 59400,
+      "src": "elusive"
+    },
+    {
+      "uid": "50e664a6f12199784c02600b2ccfd60a",
+      "css": "th-list",
+      "code": 59399,
+      "src": "elusive"
+    },
+    {
+      "uid": "829c06a0a3b73b02a6224f4bbb73d99c",
+      "css": "home-1",
+      "code": 59398,
+      "src": "elusive"
+    },
+    {
+      "uid": "22cfc7af2c4f158b37317c65c92b48c2",
+      "css": "location-2",
+      "code": 59401,
+      "src": "elusive"
+    },
+    {
+      "uid": "c54c00a5b7fba94b9fbc940de38a7beb",
+      "css": "location-circled",
+      "code": 59402,
+      "src": "elusive"
+    },
+    {
+      "uid": "6083c8aa5e3345476a24a28ac1afaa61",
+      "css": "cog",
+      "code": 59393,
+      "src": "elusive"
+    },
+    {
+      "uid": "cd9ad52ef0740bb86ff11af9646d4859",
+      "css": "list",
+      "code": 59392,
+      "src": "elusive"
+    }
+  ]
+}

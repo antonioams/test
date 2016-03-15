@@ -1,0 +1,4 @@
+<?php
+print_r($view_template);
+print_r($view_variavel);
+?>
